@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> Electoral Committee Sign in page </title>
-
         <link rel="stylesheet" href="../styles/styles.css" >
+        <title> Vote:Electoral Committee</title>
+
+
         
         </head>
 

@@ -2,18 +2,30 @@
 
 
 //Connection to database
-define('databaseName', 'vote');
-$servername = "localhost";
-$username = "kunonukaiza";
-$password = "KUNONu2025!";
-$dbname = databaseName;
+$host = "host = 127.0.0.1";
+$port = "port = 5432";
+$dbname = "dbname = vote";
+$credentials = " user = code4udsm password = code4udsm";
+
 
 // Create connection
-$connection = mysqli_connect($servername, $username, $password, $dbname);
+$db = pg_connect("$host $port $dbname $credentials" );
 
 // Check connection
-if ($connection->connect_error) {
-    die(" <p id=\"content\" > Connection failed: " . $connection->connect_error . "<br> </p> ");
+if (!$db) {
+    echo "Error: unable to connect.";
 }
-echo "<h1 class=\"heading\" > DARUSO <br> <br> </h1>";
+else{
+echo "<h1 class=\"heading\" > DARUSO:Welcome to cast your vote. <br> <br> </h1>";}
+
+$sql =<<<EOF
+INSERT INTO voters (studentregistrationnumber, sex, registrationtime) VALUES ('-02633','MALE',now())
+EOF;
+$ret = pg_query($db,$sql);
+if(!$ret){
+    echo pg_last_error($db);
+}
+else{ echo "Record created successfully\n";}
+pg_close($db);
+
 

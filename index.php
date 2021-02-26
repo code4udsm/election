@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" style="background: brown; text-align: center">
+<html lang="en">
 
 <head>
-    <title> Vote </title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title> Welcome </title>
 
-   <link rel="stylesheet" href="styles/styles.css" >
 
 </head>
 
@@ -15,12 +15,12 @@
     <p id="dos"> <a href="pages/dos.php" > Dean of Students </a> </p>
 
 
-        <h1 class="heading"> Voter registration </h1>
+        <h1 class="heading"> Voter Registration </h1>
 
 
 
         <form id="form" name="voterRegistrationForm" action=""
-              onsubmit="" method="post" style="alignment: center">
+              onsubmit="" method="post" >
 
             <table>
                 <caption> sections marked with <sup class="asterisk">*</sup> are required </caption>
@@ -66,7 +66,7 @@
 <p><b> Registered previously? <a href="">Sign in here</a></b></p>
 
 <hr>
-<div style="text-align: center;">
+<div >
     <?php
     include_once 'footer.php';
 

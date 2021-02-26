@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title> Dean of Students Login page </title>
-
     <link rel="stylesheet" href="../styles/styles.css" >
+    <title> Vote:Dean of Students </title>
+
+
 
 </head>
 
 
 <body>
 <p id="home"> <a href="../index.php" > Home </a> </p>
-<div style="text-align: center;">
     <div>
 
         <h1 class="heading"> Dean of Students Login Form </h1>
