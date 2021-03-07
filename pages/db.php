@@ -19,7 +19,8 @@ else{
 echo "<h1 class=\"heading\" > DARUSO:Welcome to cast your vote. <br> <br> </h1>";}
 
 $sql =<<<EOF
-INSERT INTO voters (studentregistrationnumber, sex, registrationtime) VALUES ('-02633','MALE',now())
+INSERT INTO voters (student_registration_number, sex, password, password1, registrationtime) VALUES ('-02633','FEMALE', '232edcc',
+        'jsagcwvcvr',                                                            now())
 EOF;
 $ret = pg_query($db,$sql);
 if(!$ret){

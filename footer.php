@@ -13,7 +13,7 @@ standard footer for all web pages
         <?php
 
         echo "<p id=\"standardFooter\" > <strong>Some rights reserved. <br>Copyright &copy;
-         2020-" . date("Y") . " Crafted with Love by Code for UDSM </strong> </p>";
+         2020-" . date("Y") . " Crafted with Love by <a href=''> Code for UDSM </a>  </strong> </p>";
         ?>
     </body>
 </html>

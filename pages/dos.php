@@ -13,16 +13,14 @@
 <p id="home"> <a href="../index.php" > Home </a> </p>
     <div>
 
-        <h1 class="heading"> Dean of Students Login Form </h1>
-
-
-
-        <form id="form" name="dosLoginForm" action="/pages/voter.php"
+         <form id="form" name="dosLoginForm" action="/pages/voter.php"
               onsubmit="" method="post" >
 
             <table>
-                <caption> sections marked with <sup class="asterisk">*</sup> are required </caption>
+                <caption>  <h1 class="heading"> Dean of Students Login Form </h1>
+                    <br> <br> sections marked with <sup class="asterisk">*</sup> are required </caption>
                 <tbody>
+
                 <tr> <td> <b> Administration Number <sup class="asterisk">*</sup>: </b> </td>
                     <td><label>
                             <input class="field" type="text" name="adminNumber" >
