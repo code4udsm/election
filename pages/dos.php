@@ -13,11 +13,13 @@
 <p id="home"> <a href="../index.php" > Home </a> </p>
     <div>
 
-         <form id="form" name="dosLoginForm" action="/pages/voter.php"
+         <form id="form" name="dosLoginForm" action="/pages/voter_old.php"
               onsubmit="" method="post" >
 
+             <h1 class="heading"> Dean of Students Login Form </h1>
+
             <table>
-                <caption>  <h1 class="heading"> Dean of Students Login Form </h1>
+                <caption>
                     <br> <br> sections marked with <sup class="asterisk">*</sup> are required </caption>
                 <tbody>
 

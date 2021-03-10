@@ -14,12 +14,12 @@
            <div style="text-align: center;">
            <div> 
 
-            <h1 class="heading"> Electoral Committee Login Form </h1>
-            
-            
+
                
             <form id="form" name="ecLoginForm" action=""
                   onsubmit="" method="post" >
+
+                <h1 class="heading"> Electoral Committee Login Form </h1>
 
                 <table>
                     <caption> sections marked with <sup class="asterisk">*</sup> are required </caption> 
@@ -39,8 +39,8 @@
                               <tr> <td> <b> You are all set </b> </td>
                                   <td> <input class="field" type="submit" name="submit" value="Sign in"> </td> </tr>
 
-                              <tr> <td> <b> Filled in incorrect details? </b> </td>
-                                  <td> <input class="field" type="reset" name="reset" value="Reset"> </td> </tr>
+                              <tr> <td> <b> Having issues? </b> </td>
+                                  <td> <input class="field" type="reset" name="reset" value="Talk to us"> </td> </tr>
              
                     </tbody>
                 </table> 

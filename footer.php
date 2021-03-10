@@ -12,8 +12,9 @@ standard footer for all web pages
     <body>
         <?php
 
-        echo "<p id=\"standardFooter\" > <strong>Some rights reserved. <br>Copyright &copy;
-         2020-" . date("Y") . " Crafted with Love by <a href=''> Code for UDSM </a>  </strong> </p>";
+        echo "<p id=\"standardFooter\" > <strong>Some rights reserved
+<br>Copyright &copy; 2020-" . date("Y") ."<br>". "
+ Ingeniously crafted with much love by <a href=\"https://twitter.com/code4udsm\"> Code for UDSM </a>  </strong> </p>";
         ?>
     </body>
 </html>

@@ -33,7 +33,7 @@
 
                 <tr> <td> <strong> Student Registration Number <sup class="asterisk">*</sup>: </strong> </td>
                     <td><label>
-                            <input class="field" type="tel" name="studentRegistrationNumber" >
+                            <input class="field" type="tel" name="student_registration_number" >
                         </label></td> </tr>
 
                 <tr>  <td> <strong> Sex <sup class="asterisk">*</sup> : </strong> </td>
@@ -45,12 +45,12 @@
                         </label> <strong> Female </strong></td> </tr>
 
 
-                <tr> <td> <strong> Password<sup class="asterisk">*</sup>: </strong> </td>
+                <tr> <td> <strong> Type your password <sup class="asterisk">*</sup>: </strong> </td>
                     <td> <label>
                             <input class="field" type="password" name="password" >
                         </label> </td> </tr>
 
-                <tr> <td> <strong>Re-Enter Password<sup class="asterisk">*</sup>: </strong> </td>
+                <tr> <td> <strong>Retype your password<sup class="asterisk">*</sup>: </strong> </td>
                     <td><label>
                             <input class="field" type="password" name="password1">
                         </label></td> </tr>
@@ -61,8 +61,8 @@
                 <tr> <td> <strong> Ready? </strong> </td>
                     <td> <input class="field" type="submit" name="submit" value=" Register to vote"> </td> </tr>
 
-                <tr> <td> <strong> Filled in incorrect details? </strong> </td>
-                    <td> <input class="field" type="reset" name="reset" value="Reset"> </td> </tr>
+                <tr> <td> <strong> Having issues? </strong> </td>
+                    <td> <input class="field" type="reset" name="reset" value="Talk to us"> </td> </tr>
 
                 </tbody>
             </table>
