@@ -7,8 +7,9 @@ function printTime( ) {
 
 
     if(hour < 12) {
-        document.writeln("<h1> Habari za Asubuhi!<h1>");
-        if (hour < 8){ document.writeln("Voting time is not ready");}
+        document.writeln("<h1> Good morning!<h1>");
+        if (hour < 8){ document.writeln("Voting time is not ready");
+        }
     }
 
     if (hour >= 12) {

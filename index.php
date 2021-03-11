@@ -14,63 +14,25 @@
 
 
 <body>
-<p id="ec"> <a href="pages/ec.php" > Electoral Committee </a> </p>
 
-    <p id="dos"> <a href="pages/dos.php" > Dean of Students </a> </p>
+<div id="roleSelectionTable">
 
+    <table border="2.0" >
+        <thead> </thead>
+        <caption>  <h1 class="heading"> Select your role </h1></caption>
+        <tbody>
+        <tr>
+            <td><p id="voter"> <a href="pages/voter.php"> I am a voter </a> </p> </td>
+            <td> <p id="voter"> <a href="pages/observer.php"> I am an observer </a> </p></td> </tr>
 
-
-
-
-
-        <form id="form" name="voterRegistrationForm" action="/pages/voter.php"
-              onsubmit="" method="post" >
-
-            <table>
-                <caption>  <h1 class="heading"> Voter Registration </h1>
-                    <br>  sections marked with <sup class="asterisk">*</sup> are required <br> </caption>
-                <tbody>
-
-                <tr> <td> <strong> Student Registration Number <sup class="asterisk">*</sup>: </strong> </td>
-                    <td><label>
-                            <input class="field" type="tel" name="student_registration_number" >
-                        </label></td> </tr>
-
-                <tr>  <td> <strong> Sex <sup class="asterisk">*</sup> : </strong> </td>
-                    <td><label>
-                            <input class="field" type="radio" name="gender" value="male" >
-                        </label> <strong> Male </strong>
-                        <label>
-                            <input class="field" type="radio" name="gender" value="female" >
-                        </label> <strong> Female </strong></td> </tr>
-
-
-                <tr> <td> <strong> Type your password <sup class="asterisk">*</sup>: </strong> </td>
-                    <td> <label>
-                            <input class="field" type="password" name="password" >
-                        </label> </td> </tr>
-
-                <tr> <td> <strong>Retype your password<sup class="asterisk">*</sup>: </strong> </td>
-                    <td><label>
-                            <input class="field" type="password" name="password1">
-                        </label></td> </tr>
-
-
-
-
-                <tr> <td> <strong> Ready? </strong> </td>
-                    <td> <input class="field" type="submit" name="submit" value=" Register to vote"> </td> </tr>
-
-                <tr> <td> <strong> Having issues? </strong> </td>
-                    <td> <input class="field" type="reset" name="reset" value="Talk to us"> </td> </tr>
-
-                </tbody>
-            </table>
-
-            <p> <strong> <br> <br> Registered previously? <a href=""> Sign in here </a> </strong></p>
-
-        </form>
-
+        <tr>
+            <td> <p id="ec"> <a href="pages/ec.php" > Electoral Committee </a> </p></td>
+            <td>    <p id="dos"> <a href="pages/dos.php" > Dean of Students </a> </p></td>
+        </tr>
+        </tbody>
+    </table>
+    <p> <a href=""> Having issues? </a> </p>
+</div>
 
 <hr>
 

@@ -1,8 +1,11 @@
-body {background-color: gray;}
+body {
+    font-family: arial,helvetica;
+    background-color: gray;
+}
 #form{
     margin: auto;
     width: 50%;
-    border: 3px solid saddlebrown;
+    border: 3px solid green;
     padding: 10px;
 }
 .asterisk{color: darkred;}
@@ -10,3 +13,10 @@ body {background-color: gray;}
 #footer{text-align: center;}
 
 #dos{text-align: right;}
+
+#roleSelectionTable{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
