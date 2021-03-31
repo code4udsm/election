@@ -2,7 +2,7 @@ body {
     font-family: arial,helvetica;
     background-color: gray;
 }
-#form{
+#voter_registration_form{
     margin: auto;
     width: 50%;
     border: 3px solid green;
@@ -19,4 +19,20 @@ body {
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+}
+
+fieldset{
+    display: inline-block;
+}
+
+.errorClass {
+    background-color: #CC6666;
+}
+
+#errorDiv {
+    color: red;
+}
+
+.errorFeedback{
+    visibility: hidden;
 }

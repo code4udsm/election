@@ -14,7 +14,7 @@ standard footer for all web pages
 
         echo "<p id=\"standardFooter\" > <strong>Some rights reserved
 <br>Copyright &copy; 2020-" . date("Y") ."<br>". "
- Ingeniously crafted with much love by <a href=\"https://twitter.com/code4udsm\"> Code for UDSM </a>  </strong> </p>";
+ Ingeniously crafted with much love by <a href=\"https://github.com/code4udsm\"> Code for UDSM </a>  </strong> </p>";
         ?>
     </body>
 </html>
